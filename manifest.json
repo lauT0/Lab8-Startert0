@@ -4,8 +4,8 @@
     "description": "Recipes for thanksgiving",
     "start_url": "https://laut0.github.io/Lab8-Startert0/",
     "display": "fullscreen",
-    "background_color": "sage-green",
-    "theme_color": "",
+    "background_color": "AliceBlue",
+    "theme_color": "White",
     "icons": [
       {
         "src": "/assets/images/icons/icon-192x192.png",
