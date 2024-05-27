@@ -49,7 +49,6 @@ function initializeServiceWorker() {
     window.addEventListener('load', async function onload() {
       try {
         const registration = await this.navigator.serviceWorker.register('./sw.js');
-        console.log('yay!2');
       } catch (error) {
         console.error(error);
       }
@@ -106,7 +105,6 @@ async function getRecipes() {
         let jresp = await response.json();
         recipes.push(jresp);
         if(recipes.length === RECIPE_URLS.length){
-          console.log("yay")
           saveRecipesToStorage(recipes);
           resolve(recipes);
         }
